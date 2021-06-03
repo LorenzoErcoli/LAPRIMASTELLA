@@ -1,0 +1,93 @@
+/* Style the video: 100% width and height to cover the entire window */
+@font-face {
+  font-family: "Messapia-Bold";
+  src: url("font/Messapia-Bold.woff") format("woff2"),
+       url("font/Messapia-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Messapia-Regular";
+  src: url("font/Messapia-Regular.woff2") format("woff2"),
+       url("font/Messapia-Regular.woff") format("woff");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Messapia-Bold";
+}
+
+h1{
+  font-size: 25px;}
+
+p{
+  font-size: 16px;}
+
+h3{
+  font-size: 13px;}
+
+a{
+  text-decoration: none;
+  color: #ff8300;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: -20px;
+  width: 100%;
+  min-height: 100%;
+
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  color: #f1f1f1;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.text {
+  width: 80%;
+  /*color: #12ca9e;*/
+  color: #2d5cc5;
+  margin-left: 0.2%
+}
+
+.note{
+  font-size: 14px;
+  font-weight: 800px;
+  text-decoration: none;
+  color: #ff8300;
+}
+
+.note:hover{
+  font-size: 35px;
+  font-family: "Messapia-Regular";
+}
+
+.screenDow{
+  margin-top: 100px;
+  padding-top: 10px;
+  background-color: #2d5cc5 !important;
+  height: 100vh;
+}
+
+.textDow{
+  width: 80%;
+  margin-left: 0.2%
+
+}
+
+.img_zip{
+  margin-top: 20vh;
+  width: 75px;
+}
+
+p::selection {
+  color:  rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+
+}
