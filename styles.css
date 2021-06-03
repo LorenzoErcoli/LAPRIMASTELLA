@@ -91,3 +91,7 @@ p::selection {
   background: rgba(0, 0, 0, 0);
 
 }
+
+a::selection {
+  color: #2d5cc5;
+}
