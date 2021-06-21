@@ -15,7 +15,12 @@ body{
   margin: 0;
   padding: 0;
   background-color: black;
-  font-family: "Messapia-Bold";
+  font-family: "Messapia-Bold" , Helvetica;
+}
+
+span{
+  font-size: 17px;
+  font-family: 'Archivo'; 
 }
 
 h1{
@@ -94,4 +99,9 @@ p::selection {
 
 a::selection {
   color: #2d5cc5;
+}
+
+
+@media only screen and (max-width: 900px) {
+
 }

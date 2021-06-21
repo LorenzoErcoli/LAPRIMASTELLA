@@ -1,2 +1,2 @@
-console.log("LPS:")
-console.log("Ciao come stai?")
+console.log("LPS:");
+console.log("Ciao come stai?");
